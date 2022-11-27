@@ -1,0 +1,23 @@
+import string
+text='Gandhinagar GuJarat'
+print('Original string: ',text)
+print('Length: ',len(text))
+print('Swap: ',text.swapcase())
+print('Capitalise first character of the each word: ',string.capwords(text))
+print('Prints the digits: ',string.digits)
+print('Ascii_lowercase and Ascii_uppercase: ',string.ascii_letters)
+print('Octal digits: ',string.octdigits)
+print('Replace: ',text.replace(text,'Gandhinagar Gujarat'))
+print('Remove white spaces with strips: ',text.strip())
+print('Uppercase: ',text.upper())
+print('Lowercase: ',text.lower())
+print('isLower: ',text.islower())
+print('isAlpha: ',text.isalpha())
+print('Count occurence of a substring: ',text.count('and'))
+print('Find index of first occurence of the substring: ',text.find('GuJ'))
+print('Find index of first occurence of the substring with index: ',text.index('GuJ'))
+print('Pad zeros on left: ',text.zfill(55))
+print('Split with character n: ',text.split('n'))
+text2='Gandhinagar '
+print('Length of ',text2,' : ',len(text2))
+print('After removing trailing white spaces: ',len(text2.rstrip()))
