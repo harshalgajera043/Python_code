@@ -1,0 +1,11 @@
+import math
+print('The value of 4 to the power 3: ',math.pow(4,3))
+print('The value of 6 factorial: ',math.factorial(6))
+print('The value of square root of 47: ',math.sqrt(47))
+print('The ceil of 3.99927: ',math.ceil(3.99927))
+print('The floor of 4.547: ',math.floor(4.475))
+print('The GCD of 20 and 125: ',math.gcd(20,125))
+print('The log of 2 to the base 3: ',math.log(2,3))
+print('The value of log10 of 17000: ',math.log(17000))
+print('The value of the constant pi: ',math.pi)
+print('The value of the constant e: ',math.e)
