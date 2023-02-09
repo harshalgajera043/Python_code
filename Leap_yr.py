@@ -6,4 +6,4 @@ elif year % 100 == 0:
 elif year % 4 ==0:
     print(year, "is a leap Year")
 else:
-    print(year, "is not a Leap Year")
+    print(year, "is not Leap Year")
